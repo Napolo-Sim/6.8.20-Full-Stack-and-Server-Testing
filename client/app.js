@@ -17,6 +17,7 @@ $(document).ready(function () {
             dataType: "json",
         }).then((result) => {
             console.log(result);
+            //Make it show the text onto the page (append????)
             // var e = document.getElementById('APIShow');
             // e.innerHTML = text(result);
         })
